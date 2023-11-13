@@ -16,7 +16,11 @@ int main() {
 
     // Check Balance, Deposit, Withdraw, Show Menu
 
+    int option;
+
     showMenu();
+    cout << "Option: ";
+    cin >> option;
 
     system("pause>0");
 }
